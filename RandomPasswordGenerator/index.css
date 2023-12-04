@@ -67,12 +67,19 @@ button {
   gap: 40px;
 }
 
-input {
+.passRandom {
   border: none;
   background: #273549;
   width: 211px;
-  height: 39px;
-  top: 396px;
-  left: 52px;
   border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  color: #55f991;
+  font-weight: 500;
+  font-size: 16px;
 }
+
+.CopyTwo {
+  margin-left: 30px;
+}
+

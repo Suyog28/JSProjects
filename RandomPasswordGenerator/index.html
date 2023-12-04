@@ -9,15 +9,17 @@
     </br>
         <span>random password</span>
         <h3>Never use an insecure password again.</h3>
-        <button>Generate passwords</button>
+        <button onclick="randomNumberGenerator()">Generate passwords</button>
       
       <div class="line"></div>
       <div class="btn-section">
         <div>
-         <input type="text" />
+         <p class="passRandom" id="password-One"></p>
+         <button  onclick="copyPassOne()" class="CopyTwo">Copy</button>
         </div>
-        <div>
-         <input type="text" />
+        <div >
+        <p class="passRandom" id="password-Two"></p>
+         <button onclick="copyPassTwo()" class="CopyTwo">Copy</button>
         </div>
       </div>
     </div>
