@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: #1c1c1c;
+}
+
+.container {
+  margin: auto;
+  background: #1f2937;
+  width: 550px;
+  height: 550px;
+  margin-top: 130px;
+  border-radius: 4px;
+  padding: 80px 50px 0px 50px;
+}
+
+span,
+.Generate {
+  font-family: Karla;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  color: #4adf86;
+}
+span {
+  color: white;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 50;
+  line-height: 28px;
+  color: #d5d4d8;
+}
+
+button {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  width: 191px;
+  height: 42px;
+  top: 284px;
+  left: 52px;
+  padding: 9px, 17px, 9px, 15px;
+  border-radius: 6px;
+  gap: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.line {
+  border: 1px solid #2f3e53;
+  margin: 40px 0px 40px 0px;
+}
+
+.btn-section {
+  display: flex;
+  gap: 40px;
+}
+
+input {
+  border: none;
+  background: #273549;
+  width: 211px;
+  height: 39px;
+  top: 396px;
+  left: 52px;
+  border-radius: 6px;
+}
