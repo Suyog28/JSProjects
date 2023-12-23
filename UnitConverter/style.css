@@ -1,0 +1,62 @@
+body {
+  background: #1c1c1c;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: #f4f4f4;
+  width: 550px;
+  height: 730px;
+  margin-top: 60px;
+}
+
+.card {
+  background: #6943ff;
+  height: 285px;
+}
+
+.heading {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #ffffff;
+  padding: 30px 0px 20px 0px;
+}
+
+.input {
+  padding: 20px 0px 40px 0px;
+}
+
+input {
+  height: 51.23px;
+  font-size: 58px;
+  width: 70px;
+  font-family: Inter;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 2px#B295FF;
+  background: #6943ff;
+  color: #ffffff;
+  outline: none;
+}
+
+button {
+  width: 118px;
+  height: 42px;
+  border-radius: 5px;
+  border: none;
+}
