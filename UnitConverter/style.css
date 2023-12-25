@@ -5,7 +5,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-
   font-family: "Inter", sans-serif;
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
@@ -15,7 +14,7 @@ body {
   background: #f4f4f4;
   width: 550px;
   height: 730px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .card {
@@ -59,4 +58,36 @@ button {
   height: 42px;
   border-radius: 5px;
   border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #3d3d3d;
+}
+
+.section-down {
+  margin-top: 30px;
+}
+.card-child {
+  background-color: #ffffff;
+  margin: 14px 20px 14px 20px;
+  height: 108.57px;
+  padding-top: 10px;
+}
+
+.subHeading {
+  color: #5a537b;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.subtext {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #353535;
 }
