@@ -17,39 +17,25 @@ const PoundsEl = document.getElementById("Pounds");
 
 
 function unitCovertor() {
-    let n = parseInt(document.getElementById("inputText").value)
-    //Feet and Meters Conversion
+  let n = parseInt(document.getElementById("inputText").value)
+  //Feet and Meters Conversion
 
-    let feet = n * 3.281
-    let Meters = n / 3.281
-    feetEl.innerHTML = `
-    <p class="subHeading">Length(Meter/Feet)</p>
-    <p class="subtext">
-              ${n} meters = ${feet} feet | ${n} feet = ${Meters.toFixed(3)} meters </p>`
+  let feet = n * 3.281
+  let Meters = n / 3.281
+  feetEl.textContent = ` ${n} meters = ${feet} feet | ${n} feet = ${Meters.toFixed(3)} meters </p>`
 
 
-    //Gallons and litters
+  //Gallons and litters
 
-    let Gallons = n / 3.785
-    let Liters = n * 3.785
-    LitersEl.innerHTML =
-        `  <p class="subHeading">Volume (Liters/Gallons)</p>
-            <p class="subtext">
-              ${n} liters = ${Gallons.toFixed(3)} gallons |  ${n} gallons = ${Liters} liters
-            </p>`
-    //Pound and Killos
+  let Gallons = n / 3.785
+  let Liters = n * 3.785
+  LitersEl.textContent = `${n} liters = ${Gallons.toFixed(3)} gallons |  ${n} gallons = ${Liters.toFixed(3)} liters`
+  //Pound and Killos
 
-    let Pound = n * 2.205
+  let Pound = n * 2.205
+  let Killos = n / 2.205
+  PoundsEl.textContent = `${n} kilos = ${Pound} pounds | ${n} pounds = ${Killos.toFixed(3)} kilos`
 
-
-    let Killos = n / 2.205
-
-
-    PoundsEl.innerHTML =
-        `  <p class="subHeading">Mass (Kilograms/Pounds)</p>
-            <p class="subtext">
-              ${n} kilos = ${Pound} pounds | ${n} pounds = ${Killos.toFixed(3)} kilos
-            </p>`
 
 }
 
