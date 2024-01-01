@@ -1,0 +1,130 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+.hero {
+  background-image: url("images/torshov.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 553px;
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+h1 {
+  background-color: #1d3557;
+  border-radius: 10px;
+  font-size: 32px;
+  line-height: 37px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 15px;
+  width: 201px;
+  font-weight: 700;
+}
+
+h2 {
+  background-color: #457b9d;
+  border-radius: 10px;
+  padding: 15px;
+  width: 412px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.activities-section {
+  min-height: 378px;
+  background-color: #f1faee;
+}
+
+.activities-section > h3 {
+  color: #1d3557;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    border-radius: 50%;
+  }
+
+  .title {
+    color: #1d3557;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .sub-text {
+    color: #1d3557;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.card {
+  width: 400px;
+  height: 294px;
+  border-radius: 10px;
+  background-color: #a8dadc;
+  border-bottom: 5px solid #1d3557;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin: 60px auto;
+}
+
+.card-image {
+  border-radius: 15px;
+  padding: 10px;
+  width: 185px;
+}
+
+.guide {
+  padding: 10px;
+}
+.guide > h3 {
+  color: #1d3557;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.guide > p {
+  font-style: italic;
+}
+h4 {
+  color: #1d3557;
+  font-size: 16px;
+  font-weight: 700;
+}
